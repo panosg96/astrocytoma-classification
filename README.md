@@ -15,6 +15,8 @@ The classifiers that are used are kNN (k=3), Probabilistic Neural Network and Ba
 After getting a result from every classifier, the final result is created through a majority voting which states the final grade (High or Low)  
 
 
+
+
 The project consists of 3 files:
 main.m --> This is the main program where the user can load an image in order to get the result of the grade detection
 
