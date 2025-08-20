@@ -1,6 +1,8 @@
 # astrocytoma-classification
 
-This program is developed in matlab and the goal is to classify a histopathological image of brain cancer (astrocytoma), in order to detect the grade (High or Low). 
+This program is my thesis, as part of my Biomedical Engineering, MEng curriculum, which can be found here: https://polynoe.lib.uniwa.gr/xmlui/handle/11400/1854
+
+The development was done in MATLAB and the goal is to classify a histopathological image of brain cancer (astrocytoma), in order to detect the grade (High or Low). 
 
 The user initially loads a histopathological image. 
 
