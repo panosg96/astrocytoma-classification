@@ -6,6 +6,10 @@
 % low grade or high grade 
 
 % Reading input image
+
+
+% TEST COMMENT
+
 % clear all;
 warning off all
 
