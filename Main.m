@@ -5,6 +5,7 @@
 % morphological features and then classifies the image in 2 categories of 
 % low grade or high grade 
 
+
 % Reading input image
 
 % clear all;
@@ -294,9 +295,9 @@ class2 = [
 
 ]; % microscopy images of brain tissue LowGrade
 
-classLabels =[ones(1,size(class1,1)) (-1)*ones(1,size(class2,1))]';
+classLabels =[ones(1,size(class1,1)) (-1)*ones(1,size(class2,1))];
 superClass=[class1;class2];%form superclass
-% superClass=mapstd(superClass')';%Normalize data to 0 mean
+% superClass=mapstd(superClass); %Normalize data to 0 mean
 [superClass, C1, S1] = normalize(superClass);
 [class1,class2]=classConstruction(superClass,classLabels );%reconstruct 2 classes to feed algorithms
 
