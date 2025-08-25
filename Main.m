@@ -7,11 +7,6 @@
 
 % Reading input image
 
-
-% TEST COMMENT
-
-% another comment
-
 % clear all;
 warning off all
 
