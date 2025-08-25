@@ -10,6 +10,8 @@
 
 % TEST COMMENT
 
+% another comment
+
 % clear all;
 warning off all
 
